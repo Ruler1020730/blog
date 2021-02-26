@@ -15,10 +15,10 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git branch -M main
+git branch -M deploy
 # 如果发布到 https://<USERNAME>.github.io
 # git remote add origin https://github.com/Ruler1020730/blog.git
-git push -f https://github.com/Ruler1020730/blog.git main
+git push -f https://github.com/Ruler1020730/blog.git deploy
 # git push -f git@github.com:Ruler1020730/Ruler1020730/blog.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
